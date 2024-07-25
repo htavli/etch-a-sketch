@@ -4,6 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="drawContainer"></div>
+    <div id="chooseContainer">
+      <div id="colorBox"></div>
+      <div>
+        RED
+        <input
+          type="number"
+          id="red"
+          class="colorInput"
+          min="0"
+          max="255"
+          value="0"
+        />
+      </div>
+      <div>
+        GREEN
+        <input
+          type="number"
+          id="green"
+          class="colorInput"
+          min="0"
+          max="255"
+          value="0"
+        />
+      </div>
+      <div>
+        BLUE
+        <input
+          type="number"
+          id="blue"
+          class="colorInput"
+          min="0"
+          max="255"
+          value="0"
+        />
+      </div>
+      <button id="removeGrid">NEW GRID</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

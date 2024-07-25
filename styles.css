@@ -1,0 +1,46 @@
+.pixel {
+  border: 30px;
+  border-color: black;
+  background-color: #ececec;
+}
+
+.column {
+  display: flex;
+  width: 1000px;
+  height: auto;
+}
+
+#drawContainer {
+  margin: 3%;
+  width: 750px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.onHover {
+  filter: brightness(50%);
+}
+
+#chooseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 300px;
+  background-color: #dddddd;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+#colorBox {
+  width: 50px;
+  height: 50px;
+}
+
+input {
+  width: 100px;
+}
